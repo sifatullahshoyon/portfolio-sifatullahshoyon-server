@@ -11,4 +11,22 @@ projectRouter.post(
   projectController.createProject,
 );
 
+projectRouter.get(
+  '/:id',
+
+  projectController.getProjectById,
+);
+
+projectRouter.delete(
+  '/:id',
+
+  projectController.removeProjectById,
+);
+
+projectRouter.get(
+  '/',
+
+  projectController.getAllProject,
+);
+
 export default projectRouter;
