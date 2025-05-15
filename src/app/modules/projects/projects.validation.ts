@@ -1,9 +1,9 @@
 import { z } from 'zod';
 
 export const projectValidationSchema = z.object({
-  id: z.string({
-    required_error: 'id is required',
-    invalid_type_error: 'id must be a string',
+  _id: z.string({
+    required_error: '_id is required',
+    invalid_type_error: '_id must be a string',
   }),
 
   images: z

@@ -4,9 +4,9 @@ import { IProjectDetails } from './projects.interface';
 // Mongoose Schema
 const projectSchema = new Schema<IProjectDetails>(
   {
-    id: {
+    _id: {
       type: String,
-      required: [true, 'id is required'],
+      required: [true, '_id is required'],
     },
     images: {
       type: [String],

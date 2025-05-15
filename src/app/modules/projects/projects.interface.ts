@@ -1,5 +1,6 @@
 export interface IProjectDetails {
-  id: string;
+  _id: string;
+  id?: string;
   images: string[];
   title: string;
   description: string;
