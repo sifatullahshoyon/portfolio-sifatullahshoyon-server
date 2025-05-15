@@ -11,9 +11,9 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      // 'https://hand-two-hand-backend.vercel.app',
+      'https://portfolio-sifatullahshoyon-backend.vercel.app/',
       'http://localhost:3000',
-      // 'https://hand-to-hand-frontend.vercel.app',
+      'https://portfolio-sifatullahshoyon.vercel.app/',
     ],
     credentials: true,
   }),
