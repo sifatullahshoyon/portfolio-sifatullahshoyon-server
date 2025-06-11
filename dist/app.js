@@ -13,9 +13,9 @@ app.use(express_1.default.json());
 // app.use(cookieParser());
 app.use((0, cors_1.default)({
     origin: [
-        // 'https://hand-two-hand-backend.vercel.app',
+        'https://portfolio-sifatullahshoyon-backend.vercel.app/',
         'http://localhost:3000',
-        // 'https://hand-to-hand-frontend.vercel.app',
+        'https://portfolio-sifatullahshoyon.vercel.app/',
     ],
     credentials: true,
 }));
